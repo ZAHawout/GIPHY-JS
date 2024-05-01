@@ -2,3 +2,48 @@ body {
     color: white;
     background-color: black;
 }
+
+.js-memes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-color: green;
+    margin-top: 5px;
+}
+
+#memeBar {
+    margin: 5px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.memeSearchBar {
+    background-color: green;
+    margin: 10px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+}
+
+@media (max-width: 768px) {
+    img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    img {
+        height: 150px;
+        width: 150px;
+    }
+}
