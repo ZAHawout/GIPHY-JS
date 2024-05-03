@@ -3,7 +3,7 @@ body {
     background-color: black;
 }
 
-.js-memes-container {
+.js-memes-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -15,7 +15,7 @@ img {
     width: 300px;
     border-style: solid;
     border-color: green;
-    margin-top: 5px;
+    margin: 2px;
     object-fit: fill;
 }
 
@@ -32,4 +32,18 @@ h1 {
     background-color: green;
     margin: 10px;
     border-radius: 25px;
+}
+
+@media (max-width: 650px) {
+    img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 350px) {
+    img {
+        height: 100px;
+        width: 100px;
+    }
 }

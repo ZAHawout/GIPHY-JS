@@ -23,11 +23,9 @@ function renderGifs(response) {
 }
 
 function getMemes(searchExpression) {
-    fetch(`${API_PREFIX}${API_KEY}&q=${searchExpression}&limit=25&${API_SETTINGS}`).then(data => data.json())
+    fetch(`${API_PREFIX}${API_KEY}&q=${searchExpression}&limit=32&${API_SETTINGS}`).then(data => data.json())
     .then(renderGifs);
 }
 
 //Event Listener
-document
-.querySelector('#memeBar')
-.addEventListener('submit', formSubmitted);
+document.querySelector('#memeBar').addEventListener('submit', formSubmitted);
