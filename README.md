@@ -1,6 +1,6 @@
 # Meme Engine
 
-Hosting link:
+Hosting link: https://zahawout.github.io/GIPHY-JS/
 
 # Project Description
 
@@ -30,4 +30,4 @@ As a hipster, I want to locate the best memes so that I can make my friends laug
 
 As a busy student, I want to find memes so that I can be entertained while I study.
 
-As an office worker, I want to find funny memes so that my cublicle isn't so boring.
+As an office worker, I want to find funny memes so that my cubicle isn't so boring.
