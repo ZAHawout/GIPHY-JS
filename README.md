@@ -4,7 +4,7 @@ Hosting link: https://zahawout.github.io/GIPHY-JS/
 
 # Project Description
 
-This project is a meme generator that displays displays GIFs based on what the user enters into the search bar. The project pulls the memes from Giphy.com.
+This project is a meme generator that displays displays GIFs based on what the user enters into the search bar. The project pulls the GIFs from Giphy.com.
 
 # Site Functionality
 
